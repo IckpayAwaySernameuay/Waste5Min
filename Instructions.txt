@@ -1,0 +1,15 @@
+Hi! Thanks for trying my program I'm not really good at programming yet so this is how I have to make them.
+
+To run my program do the following:
+Make sure your computer is running Windows (If you dont know what that is if your computer has an apple on it than you dont have it.)
+Download the latest python beginning with a 3 (Ex: 3.x.x) from www.python.org
+Download that.
+When you download it make sure to check a button called add to path or something of the sort
+	If you forget to do that run the program again
+Hit the start button or go to the search bar
+Type "Command Prompt" (excludion quotations)
+When it opens type
+	python (drag the thing title Animals here)
+Hit enter.
+
+Any questions message me on Reddit u/BeigeGnat

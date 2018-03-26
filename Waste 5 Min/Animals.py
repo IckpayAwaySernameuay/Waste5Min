@@ -1,0 +1,68 @@
+import turtle
+import time
+import sys
+number = 1
+x = 0
+
+#def AskAge():
+print("Enter your age.")
+your_age = float(sys.stdin.readline())
+age = abs(float(your_age))
+print("Enter your favorite animal")
+Animal = str(sys.stdin.readline())
+if age > 11:
+	print('Processing Data...')
+	time.sleep(1)
+	print("You are old enough to meet your favorite animal!")
+	print("Loading...")
+	turtl = turtle.Pen()
+	q = turtle.Pen()
+	turtle.write("Loading...", True, align="center", font=(75))
+	turtl.forward(150)
+	turtl.right(180)
+	turtl.forward(300)
+	turtl.right(90)
+	turtl.forward(50)
+	turtl.right(90)
+	turtl.forward(300)
+	turtl.right(90)
+	turtl.forward(50)
+	turtl.right(180)
+	turtl.forward(30)
+	turtl.left(90)
+	turtl.width(40)
+	turtl.forward(18)
+	time.sleep(1)
+	turtl.forward(25)
+	time.sleep(3)
+	turtl.forward(57)
+	time.sleep(1)
+	turtl.forward(20)
+	time.sleep(1)
+	turtl.forward(25)
+	time.sleep(2)
+	turtl.forward(5)
+	time.sleep(4)
+	turtl.forward(125)	
+	time.sleep(1)
+	turtl.forward(25)
+	turtle.reset()
+	turtle.write("Loading done! Please look back at the terminal.", True, align="center", font=(75))
+	time.sleep(10)
+	print("Your animal is now ready to meet you!")
+	time.sleep(2)
+	print("Your %slikes you!" % Animal + ' ')
+	time.sleep(2)
+	print("A loud noise occurs...")
+	time.sleep(2)
+	print("Uh oh, he ran away.")
+else:
+	print("Processing Data...")
+	time.sleep(2)
+	print("You are not worthy...")
+	time.sleep(1)
+	print("Your worhtyness will come in a near time a time %s years in the future." % (11 - age))
+
+#while number < 5:
+#    reginald.dance()
+#    number = number + 1
